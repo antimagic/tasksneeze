@@ -1,6 +1,6 @@
 # tasksneeze
 
-A cute little Ruby script that tells you to do a random productive task. For dispelling indecision, providing a tinkering outlet, and keeping little easily-forgotten tasks in mind. Also using this as a tool to teach myself to make little MVPs first and iterate instead of spending a week of evenings making the most ambitious version of a thing.
+A cute little Ruby script that tells you to do a random productive task. For dispelling indecision, providing a tinkering outlet, and keeping easily-forgotten tasks in mind. Also using this as a tool to teach myself to make MVPs first and iterate instead of spending a week of evenings making the most ambitious version of a thing.
 
 ## Features
 
