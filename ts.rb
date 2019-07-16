@@ -8,8 +8,13 @@ class TaskSneeze
     # TODO: tasks in external file
     # TODO: take desired time as arg & grab an appropriate task for the time window
     # TODO: cli for adding new tasks to file
+    # TODO: set a timer
     @tasks = [
       "do some art studies for 30 minutes",
+      "do a photo study",
+      "draw two versions of a character",
+      "doodle for 15 minutes",
+      "meditate on ruby koans for 30 minutes"
       "overengineer this for 30 minutes",
       "build a comic platform for 1 hour"
     ]
