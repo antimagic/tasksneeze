@@ -2,6 +2,7 @@
 
 class TaskSneeze
   attr_accessor :tasks
+  attr_accessor :preamble
 
   def initialize
     # TODO: tasks in external file
@@ -11,10 +12,19 @@ class TaskSneeze
       "30m overengineer this",
       "1h comic platform"
     ]
+
+    @preamble = [
+      "go do this:",
+      "here's one:"
+    ]
+  end
+
+  def randomPreamble
+    return self.preamble.sample
   end
 
   def task
-    return self.tasks.sample
+    return self.randomPreamble + " " + self.tasks.sample
   end
 end
 
