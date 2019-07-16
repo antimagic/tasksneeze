@@ -15,6 +15,7 @@ class TaskSneeze
       "do some art studies for 30 minutes",
       "do a photo study",
       "draw two versions of a character",
+      "draw at least one witch",
       "doodle for 15 minutes",
       "meditate on ruby koans for 30 minutes",
       "overengineer this for 30 minutes",
@@ -22,7 +23,8 @@ class TaskSneeze
     ]
 
     @preamble = [
-      "go",
+      "let's go",
+      "oh cool you're gonna",
       "i think we both know you're about to",
       "stop messing about and",
       "put that down it's time to"
