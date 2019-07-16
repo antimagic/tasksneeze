@@ -7,15 +7,18 @@ class TaskSneeze
   def initialize
     # TODO: tasks in external file
     # TODO: take desired time as arg & grab an appropriate task for the time window
+    # TODO: cli for adding new tasks to file
     @tasks = [
-      "30m art studies",
-      "30m overengineer this",
-      "1h comic platform"
+      "do some art studies for 30 minutes",
+      "overengineer this for 30 minutes",
+      "build a comic platform for 1 hour"
     ]
 
     @preamble = [
-      "go do this:",
-      "here's one:"
+      "go",
+      "i think we both know you're about to",
+      "stop messing about and",
+      "put that down it's time to"
     ]
   end
 
