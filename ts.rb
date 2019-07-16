@@ -1,5 +1,7 @@
 #!/usr/bin/ruby
 
+require "colorize"
+
 class TaskSneeze
   attr_accessor :tasks
   attr_accessor :preamble
@@ -14,7 +16,7 @@ class TaskSneeze
       "do a photo study",
       "draw two versions of a character",
       "doodle for 15 minutes",
-      "meditate on ruby koans for 30 minutes"
+      "meditate on ruby koans for 30 minutes",
       "overengineer this for 30 minutes",
       "build a comic platform for 1 hour"
     ]
@@ -32,7 +34,7 @@ class TaskSneeze
   end
 
   def task
-    return self.randomPreamble + " " + self.tasks.sample
+    return self.randomPreamble + " " + self.tasks.sample.green
   end
 end
 
